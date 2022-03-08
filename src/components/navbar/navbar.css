@@ -1,0 +1,93 @@
+header.css-hip9hq-MuiPaper-root-MuiAppBar-root  {
+    position: fixed;
+    box-sizing: border-box;
+    justify-content: space-between;
+    background-color: rgb(116, 55, 136);
+    z-index: 100;
+
+}
+
+header.css-hip9hq-MuiPaper-root-MuiAppBar-root img{
+    width: 70px;
+    padding: 4px;
+    padding-top: 6px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+li {
+    padding-top: 0px;
+    padding-left: 24px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.cart-icon{
+    padding-left: 590px;
+}
+
+div.dropdown{
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgb(37, 10, 46);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-weight: 400;
+    font-size: 0.875rem;
+    line-height: 1.75;
+    letter-spacing: 0.02857em;
+    text-transform: uppercase;
+
+}
+
+button.boton-dropdown{
+    float: none;
+    background-color: rgb(93, 41, 111);
+    display: block;
+    text-align: left;
+}
+
+.dropdown .dropbtn {
+    font-size: 17px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+.dropdown:hover .dropdown-content{
+    animation: fadein 0.2s ease-in-out forwards;
+    display: block;
+    background-color: rgb(116, 55, 136);
+}
+
+.cart-icon{
+    font-size: 30px;
+    display: flex;
+    justify-content: end;
+}
